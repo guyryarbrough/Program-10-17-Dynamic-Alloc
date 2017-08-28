@@ -49,7 +49,7 @@ int main()
 	pRect = nullptr;
 
 	// Dynamically allocated object accessed through pointer...
-	pPerson = new Person("Miguel E. Gonzalez", 23);
+	pPerson = new Person("Miguel E. Gonzalez", 73);
 	cout << "\n\nThe person's name is " << pPerson->getName();
 	cout << "\n The person's age is " << pPerson->getAge() << endl;
 	delete pPerson;
